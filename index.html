@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arthur's Site</title>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
-  <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Arthur's Site</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header><img src="./assets/logo.jpg" alt="logo"></header>
+      <header><img src="./assets/logo.jpg" alt="logo" /></header>
     </div>
     <div id="main-page-carousel-panel" class="page-carousel-panel">
-      <img src="./assets/image1.jpg" alt="Image 1">
-      <img src="./assets/image2.jpg" alt="Image 2">
-      <img src="./assets/image3.jpg" alt="Image 3">
-      <img src="./assets/image4.jpg" alt="Image 4">
+      <img src="./assets/image4.jpg" alt="Image 4" />
+      <img src="./assets/image1.jpg" alt="Image 1" />
+      <img src="./assets/image2.jpg" alt="Image 2" />
+      <img src="./assets/image3.jpg" alt="Image 3" />
+      <img src="./assets/image5.jpg" alt="Image 5" />
+      <img src="./assets/image6.jpg" alt="Image 6" />
     </div>
     <div class="container">
-        <div class="about-us-continer">
-            <h6>ՄԵՐ ՄԱՍԻՆ</h6>
-            <p>«Պրոֆմոնտ» ընկերությունն առաջարկում է ինժեներական համակարգերի կառուցման կոմպլեկտ լուծումներ՝ սկսած նախագծա-նախահաշվային աշխատանքներից մինչև հետսպասարկում:</p>
-        </div>
+      <!-- <div class="about-us-continer">
+        <h6>ՄԵՐ ՄԱՍԻՆ</h6>
+        <p>
+          «Պրոֆմոնտ» ընկերությունն առաջարկում է ինժեներական
+          համակարգերի կառուցման կոմպլեկտ լուծումներ՝ սկսած
+          նախագծա-նախահաշվային աշխատանքներից մինչև հետսպասարկում:
+        </p>
+      </div> -->
     </div>
     <div class="office-map">
-        <div class="office-map-header">
-            <span>&#128205; Վաղարշ Վաղարշյան 12, Ակցեռնի շենք</span>
-            <span>&#128222; +374 77 77 77 77</span>
-            <span>&#x1F48C; info@arthur.am</span>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d604.6871663710097!2d44.50162134452161!3d40.199445384303715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd3fc5e18bf9%3A0x5ab87012ac001f4d!2s12%20Vagharsh%20Vagharshyan%20St%2C%20Yerevan%200012%2C%20Armenia!5e0!3m2!1sen!2sus!4v1719503258339!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="office-map-header">
+        <span>&#128205; Վաղարշ Վաղարշյան 12, Ակցեռնի շենք</span>
+        <span>&#128222; +374 77 77 77 77</span>
+        <span>&#x1F48C; info@arthur.am</span>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d604.6871663710097!2d44.50162134452161!3d40.199445384303715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd3fc5e18bf9%3A0x5ab87012ac001f4d!2s12%20Vagharsh%20Vagharshyan%20St%2C%20Yerevan%200012%2C%20Armenia!5e0!3m2!1sen!2sus!4v1719503258339!5m2!1sen!2sus"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('#main-page-carousel-panel').slick({
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: false,
-            arrows: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-            });
+      $(document).ready(function () {
+        $('#main-page-carousel-panel').slick({
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: false,
+          arrows: true,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         });
+      });
     </script>
-
-</body>
+  </body>
 </html>
